@@ -76,6 +76,8 @@
 .carousel-item img {
     width: 70%; 
     display: block; 
+    margin-top: 4rem;
+    margin-left: 5rem;
 }
 
 .button {
@@ -94,4 +96,51 @@
 
 .button-right {
     right: 30px; 
+}
+
+.email{
+    display: block;
+    border: 1px solid black;
+    margin: 3rem;
+    padding: 2rem 3rem 3rem 3rem;
+    width: 80%;
+    height: 11rem;
+}
+
+.email h1{
+    text-align: center;
+}
+
+.input{
+    display: block;
+    margin-top: 2rem;
+}
+
+.box{
+    width: 18rem;
+    height: 2rem;
+    margin-left: 5rem;
+}
+
+.checkbox{
+    margin-top: 1rem;
+    text-align: left;
+}
+
+.checkbox p {
+    font-size: 0.8rem;
+    margin-top: 0.2rem;
+}
+
+.enviar{
+    text-align: center;
+    height: 2.3rem;
+    width: 5.3rem;
+    align-items: center;
+    margin-top: 1rem;
+    background-color: rgb(121, 1, 1);
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 3px;
 }
