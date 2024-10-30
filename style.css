@@ -106,10 +106,9 @@
     margin: auto;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    padding: 2rem 3rem 6rem 4rem;
+    padding: 2rem 3rem 4rem 4rem;
     width: 80%;
     height: 11rem;
-
 }
 
 .email h1{
@@ -149,8 +148,8 @@
     margin-bottom: 3rem;
 }
 
-input::placeholder{
-    color: gray;
+.enviar::placeholder{
+    color: white;
 }
 
 .enviar:hover{
@@ -219,6 +218,7 @@ footer{
     margin-left: 1rem;
     text-align: center;
     border-bottom: 0.5px solid darkgrey;
+    padding-bottom: 0.5rem;
 }
 
 .footer1 h1{
@@ -235,7 +235,7 @@ font-size: 0.6rem;
     margin-top: 1rem;
     margin-left: 15%;
     text-align: justify;
-    padding-bottom: ;
+    padding-bottom: 1rem;
 }
 
 .footer2 h1{
