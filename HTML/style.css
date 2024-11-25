@@ -53,6 +53,11 @@
     color: rgb(143, 143, 143);
 }
 
+/*HTML*/
+html{
+    background-color: black;
+}
+
 /* NAV */
 
 .carousel{
@@ -111,6 +116,7 @@
     padding: 2rem 3rem 4rem 4rem;
     width: 80%;
     height: 11rem;
+    background-color: white;
 }
 
 .email h1{
@@ -159,10 +165,16 @@
     cursor: pointer;
 }
 
+.novidades{
+    color: white;
+    margin: 40px;
+    text-align: center;
+}
+
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 90%;
+    width: 80%;
     gap: 3rem;
     margin: auto;
 }
@@ -192,11 +204,14 @@
 }
 
 .item:hover img {
-    opacity: 0.3; 
+    opacity: 0.5; 
 }
 
 .item:hover p {
     opacity: 1; 
+    background-color: white;
+    color: black;
+    border-radius: 10px;
 }
 
 /*GALERIA DINÂMICA*/
@@ -213,6 +228,7 @@
     text-align: center;
     margin-top: 40px;
     margin-bottom: 30px;
+    color: white;
 }
 
 .galeria ul{
@@ -238,10 +254,6 @@
     margin-top: 20px;
 }
 
-/*GUTTERS*/
-.container {
-
-}
 
 /* FOOTER */
 
