@@ -1,27 +1,25 @@
-let currentIndex = 0;
+let indice = 0; // Começa no primeiro item
+const slides = document.querySelectorAll('.carrossel-slide'); // Seleciona todas as imagens
+const totalSlides = slides.length; // Total de slides
 
-function moveLeft() {
-  const items = document.querySelectorAll('.carousel-item');
-  const totalItems = items.length;
+function moverCarrossel(direction) {
+  indice += direction; // Incrementa ou decrementa o índice
 
-  currentIndex = (currentIndex === 0) ? totalItems - 1 : currentIndex - 1;
-  updateCarousel();
+  // Verifica se o índice está fora dos limites
+  if (indice < 0) {
+    indice = totalSlides - 1; // Vai para o último slide
+  } else if (indice >= totalSlides) {
+    indice = 0; // Vai para o primeiro slide
+  }
+
+  // Altera a posição do carrossel para mostrar o slide correto
+  const carrosselContainer = document.querySelector('.carrossel-container');
+  carrosselContainer.style.transform = `translateX(-${indice * 50}%)`;
 }
 
-function moveRight() {
-  const items = document.querySelectorAll('.carousel-item');
-  const totalItems = items.length;
 
-  currentIndex = (currentIndex === totalItems - 1) ? 0 : currentIndex + 1;
-  updateCarousel();
-}
 
-function updateCarousel() {
-  const carouselInner = document.querySelector('.carousel-inner');
-  const offset = -currentIndex * 100;
-  carouselInner.style.transform = `translateX(${offset}%)`;
-}
-
+// galeria dinamica
 const imagens = document.querySelectorAll("ul img");
 
 function trocar(event){
@@ -37,3 +35,4 @@ function selecionarItens(item){
 }
 
 imagens.forEach(selecionarItens);
+
