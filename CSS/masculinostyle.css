@@ -206,4 +206,16 @@ font-size: 0.6rem;
     grid-column: 2; 
     grid-row: 2;  
 }
-
+@media (max-width: 600px) {
+    .header1 {
+        width: 100%;
+    }
+    .header2 {
+        width: 100%;
+        grid-template-columns: 1fr;
+        display: block;
+    }
+    .masc {
+        grid-template-columns: 1fr;
+    }
+}
