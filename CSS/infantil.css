@@ -109,7 +109,7 @@ body{
 
 
 /* FEMININO.HTML */
-.masc{
+.inf{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 80%;
@@ -119,14 +119,14 @@ body{
     margin: auto;
 }
 
-.imgmasc{
+.imginf{
     max-width: 100%;
     width: 85%;
     height: 100%;
     transition: transform 0.3s ease;
 }
 
-.imgmasc:hover{
+.imginf:hover{
     transform: scale(1.1);
     cursor: pointer;
 }
