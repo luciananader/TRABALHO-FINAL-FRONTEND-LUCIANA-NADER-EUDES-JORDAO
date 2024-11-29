@@ -40,19 +40,21 @@ body{
 }
 
 .login .fas{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-right: 0.5rem;
 }
 
 .login .far{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-right: 0.5rem;
+    margin-left: 5px;
 }
 
 .login a{
     text-decoration: none;
     color: white;
     margin-right: 3rem;
+    font-size: 0.8rem;
 }
 
 .header2{
