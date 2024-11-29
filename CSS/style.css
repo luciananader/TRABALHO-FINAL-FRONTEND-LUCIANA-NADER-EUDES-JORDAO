@@ -384,4 +384,16 @@ font-size: 0.6rem;
     grid-column: 2; 
     grid-row: 2;  
 }
-
+@media (max-width: 600px) {
+    .carrossel-slide {
+        width: 33%;
+    }
+    .header1 {
+        width: 100%;
+    }
+    .header2 {
+        width: 100%;
+        grid-template-columns: 1fr;
+        display: block;
+    }
+}
