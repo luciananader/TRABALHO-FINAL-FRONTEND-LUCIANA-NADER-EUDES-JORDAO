@@ -1,20 +1,20 @@
-let indice = 0; // Começa no primeiro item
-const slides = document.querySelectorAll('.carrossel-slide'); // Seleciona todas as imagens
-const totalSlides = slides.length; // Total de slides
+let indice = 0; 
+const slides = document.querySelectorAll('.carrossel-slide'); 
+const totalSlides = slides.length;
 
 function moverCarrossel(direction) {
-  indice += direction; // Incrementa ou decrementa o índice
+  indice += direction; 
 
-  // Verifica se o índice está fora dos limites
+  
   if (indice < 0) {
-    indice = totalSlides - 1; // Vai para o último slide
+    indice = totalSlides - 1;
   } else if (indice >= totalSlides) {
-    indice = 0; // Vai para o primeiro slide
+    indice = 0; 
   }
 
-  // Altera a posição do carrossel para mostrar o slide correto
+
   const carrosselContainer = document.querySelector('.carrossel-container');
-  carrosselContainer.style.transform = `translateX(-${indice * 50}%)`;
+  carrosselContainer.style.transform = `translateX(-${indice * 60}%)`;
 }
 
 

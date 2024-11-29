@@ -29,7 +29,7 @@ body{
 .pesquisar{
     background-color: white;
     margin-top: 1.5rem;
-    width: 50rem;
+    width: 40rem;
     height: 2rem;
     padding: 0.5rem 1rem;
 }   
@@ -207,15 +207,34 @@ font-size: 0.6rem;
     grid-row: 2;  
 }
 @media (max-width: 600px) {
+    .carrossel-slide {
+        width: 33%;
+    }
     .header1 {
         width: 100%;
     }
     .header2 {
         width: 100%;
-        grid-template-columns: 1fr;
-        display: block;
+        font-size: 0.5rem;
     }
-    .masc {
-        grid-template-columns: 1fr;
+
+    .login a{
+        font-size: 0.8rem;
+    }
+
+    .login .far{
+        margin-left: 0.8rem;
+    }
+
+    .grid4{
+        width: 15rem;
+    }
+
+    .footer2{
+        width: 80%;
+    }
+
+    .footer1{
+        width: 97%;
     }
 }
