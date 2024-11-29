@@ -125,6 +125,47 @@ body{
     transform: scale(1.1);
     cursor: pointer;
 }
+.product {
+  
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+.product p{
+    color:white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.add-to-cart{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.product-list {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    padding: 5px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+button:hover {
+    background-color: lightgray;
+}
+
+#total{
+    font-size: 13px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-right: 8px;
+}
 
 /* FOOTER */
 
